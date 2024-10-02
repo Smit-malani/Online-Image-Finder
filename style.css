@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#Search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input{
+    margin-top: 20px;
+}
+
+#inputtext{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:3px 7px;
+}
+
+#btnSearch{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 15px;
+}
+
+#Imgcon{
+    margin-top: 5vw;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    padding: 0px 40px;
+    margin-top: 20px;    
+}
+
+.singleimg{
+    background-color: ghostwhite;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.profileinfo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.profileinfo img{
+    height: 40px;
+    border-radius: 50%;
+}
+
+.mainimg img{
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mainimg p{
+    margin: 7px 0px;
+    padding: 0px 7px;
+}
+
+.hiden{
+    display : none;
+}  
+
+.visible{
+    padding: 7px 40px;
+    margin-top: 50px;    
+    margin-bottom: 30px; 
+    background-color: ghostwhite;
+    color: black ;
+    border: 0.5px solid black ;
+    border-radius: 5px; 
+    display : block;
+}
+
+#btn{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+
+
+.revisible{
+    padding: 7px 40px;
+    margin-top: 50px;    
+    margin-bottom: 30px; 
+    background-color: ghostwhite;
+    color: black ;
+    border: 0.5px solid black ;
+    border-radius: 5px;
+    display: block; 
+}
